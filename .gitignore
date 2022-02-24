@@ -1,5 +1,6 @@
 *.pdsbak
 *.workspace
+*.atsln
 *.tmp
 Exp-01\AVRStudio 5.1\AVRAssembler29/
 ## Ignore Atmel Studio temporary files and build results
