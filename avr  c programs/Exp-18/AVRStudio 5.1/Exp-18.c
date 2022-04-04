@@ -21,11 +21,11 @@ int main(void)
 
 {
  DDRB = 0xff;// make port B output
-	   PORTB = DATA1 + DATA2;//ANDing
+	   PORTB = DATA1 + DATA2;//Addition
 	   _delay_ms(5000);
-	   PORTB = DATA3-DATA4;//ORing
+	   PORTB = DATA3-DATA4;//subtraction
 	   _delay_ms(5000);
-	   PORTB = DATA5 * DATA6;//XORing
+	   PORTB = DATA5 * DATA6;//multiplication
 	   _delay_ms(5000);
     while(1)
     {
