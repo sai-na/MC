@@ -9,7 +9,7 @@
 	ldi r21,0              ; clear high byte(r21=0)
 	ldi r20,0			  ;clear low byte(r21=0)
 	ldi r16,0x79
-	add r20,r16 ;r20= 0+0x79=0x79  ,, c=0
+	add r20,r16          ;r20= 0+0x79=0x79  ,, c=0
 
 	brsh n_1 ; if c=0 , add next number
 	inc r21 ; c=1 increment(now high byte =0)

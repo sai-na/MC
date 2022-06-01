@@ -22,6 +22,6 @@ LOP_1:	LDI R21,70
 LOP_2:  COM R16
 		OUT PORTB,R16
 		DEC R21
-		BRNE LOP_2
+		BRNE LOP_2 ; The BRNE (branch if not equal) instruction uses the Z flag in the status register
 		DEC R20 
 		BRNE LOP_1
