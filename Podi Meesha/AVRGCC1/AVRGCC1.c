@@ -13,7 +13,7 @@ int main(void)
     DDRB = 0xFF;//ddrb output
     _delay_ms(50);
 	lcd_init();
-	lcdprint("KD");
+	lcdprint("SAI");
 }
 int  lcd_init()
 {
